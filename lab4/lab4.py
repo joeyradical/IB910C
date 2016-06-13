@@ -128,7 +128,6 @@ class Slideshow():
 		try:
 			image = Image.open("app_data/images/"+name.replace(" ", "") + ".jpg")
 		except IOError as e:
-			mixer.music.stop()
 			self.show_filenotfound("Image", str(e))
 			image = Image.new("RGB", (1,1), "black")
 			
