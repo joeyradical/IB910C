@@ -1,0 +1,1 @@
+welcome to rock, paper, and scissors. best out of three heats wins. enter name and press return key to play.
